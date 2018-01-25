@@ -22,4 +22,9 @@ public class AddShould {
     public void returnTwoWhenTwo(){
         assertEquals(2, Add.add("2"));
     }
+
+    @Test
+    public void returnThreeWhenOneAndTwo(){
+        assertEquals(3, Add.add("1,2"));
+    }
 }
