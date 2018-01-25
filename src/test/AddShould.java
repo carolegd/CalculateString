@@ -8,4 +8,10 @@ public class AddShould {
         assertEquals(0, Add.add(null));
     }
 
+    @Test
+    public void returnZeroWhenEmptyString(){
+        assertEquals(0, Add.add(""));
+    }
+
+
 }
