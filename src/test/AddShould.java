@@ -13,5 +13,8 @@ public class AddShould {
         assertEquals(0, Add.add(""));
     }
 
-
+    @Test
+    public void returnOneWhenOne(){
+        assertEquals(1, Add.add("1"));
+    }
 }
