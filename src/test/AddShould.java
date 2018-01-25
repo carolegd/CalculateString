@@ -17,4 +17,9 @@ public class AddShould {
     public void returnOneWhenOne(){
         assertEquals(1, Add.add("1"));
     }
+
+    @Test
+    public void returnTwoWhenTwo(){
+        assertEquals(2, Add.add("2"));
+    }
 }
