@@ -1,12 +1,8 @@
 public class Add {
     public static int add(String input) {
-        if (input == null)
+        if (input == null || input.equals(""))
             return 0;
-        if (input.equals("2"))
-            return 2;
-        if (input.equals("1"))
-            return 1;
-        return 0;
+        return Integer.parseInt(input);
     }
 
 }
